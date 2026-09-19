@@ -39,7 +39,7 @@ export const projects = [
     security: [],
     results: null,
     visual: "web",
-    video: "/video/demo_know_how_caixa.mp4",
+    video: "/videos/demo_know_how_caixa.mp4",
     status: null,
   },
   {
