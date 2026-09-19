@@ -1,4 +1,4 @@
-import { X } from "lucide-react";
+import { X, GitHub } from "lucide-react";
 
 // Aceita links normais do YouTube / Vimeo / Google Drive (converte para embed)
 // ou ficheiros de vídeo (ex: "/videos/caixapay.mp4").
@@ -89,6 +89,17 @@ export default function ProjectModal({ project, onClose }) {
             <h5>Resultados</h5>
             <p style={{ fontSize: 14.5 }}>{project.results}</p>
           </div>
+        )}
+
+        {project.github && (
+          <a
+            href={project.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="github-project-link"
+          >
+            Ver repositório no GitHub
+          </a>
         )}
       </div>
     </div>
