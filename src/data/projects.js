@@ -1,3 +1,10 @@
+// VÍDEOS: em cada projeto, preenche o campo `video` e o vídeo aparece
+// automaticamente no pop-up quando clicares em "Ver projeto".
+//   - Ficheiro no site:  video: "/videos/caixapay.mp4"   (ficheiro em public/videos/)
+//   - YouTube / Vimeo / Google Drive: cola o link normal, ex: "https://youtu.be/xxxxxxxxxxx"
+//   - Vários vídeos:     video: ["/videos/demo1.mp4", "https://youtu.be/xxxxxxxxxxx"]
+//   - Sem vídeo:         video: null
+
 export const projects = [
   {
     number: "01",
@@ -5,7 +12,7 @@ export const projects = [
     category: "Fintech · Mobile",
     description: "Sistema de Pagamento Inclusivo e Instantâneo para Cabo Verde.",
     objective:
-      "Facilitar transferências P2P instantâneas entre diferentes instituições financeiras, contribuindo para um sistema de pagamentos mais inclusivo.",
+      "Facilitar transferências person to person(P2P) instantâneas entre diferentes instituições financeiras, contribuindo para um sistema de pagamentos mais inclusivo.",
     tech: ["React Native", "Expo", "Spring Boot", "PostgreSQL", "JWT", "TLS", "RSA", "AES", "REST API"],
     contribution: [
       "Desenvolvimento do frontend mobile",
@@ -14,10 +21,9 @@ export const projects = [
       "Desenvolvimento do painel administrativo",
       "Aplicação de boas práticas de segurança",
     ],
-    security: ["JWT", "TLS", "RSA", "AES", "OWASP ZAP"],
-    results:
-      "O projeto apresentou um nível de satisfação de utilizadores elevado, com SUS de 90,4. Foram também realizados testes de segurança com OWASP ZAP.",
-    visual: "fintech",
+    security: ["JWT", "TLS", "RSA", "AES"],
+    
+    video: "https://www.youtube.com/watch?v=X2wgk02Bqt0", // ex: "/videos/caixapay.mp4" ou link do YouTube/Vimeo/Drive
     status: null,
   },
   {
@@ -26,13 +32,14 @@ export const projects = [
     category: "Web · Gestão de conhecimento",
     description: "Plataforma interna para gestão e partilha de conhecimento.",
     objective: null,
-    tech: ["React", "Vue.js", "Python", "Backend", "Web"],
+    tech: ["React", "Python", "FastAPAI", "Postgresql", "JWT"],
     contribution: [
       "Participação no desenvolvimento da plataforma, com trabalho no frontend utilizando React e Vue.js e apoio na componente backend desenvolvida em Python.",
     ],
     security: [],
     results: null,
     visual: "web",
+    video: null,
     status: null,
   },
   {
@@ -54,6 +61,7 @@ export const projects = [
     security: [],
     results: null,
     visual: "backend",
+    video: null,
     status: null,
   },
   {
@@ -67,6 +75,7 @@ export const projects = [
     security: [],
     results: null,
     visual: "infra",
+    video: null,
     status: null,
   },
   {
@@ -91,27 +100,8 @@ export const projects = [
     security: [],
     results: null,
     visual: "ecommerce",
+    video: null,
     status: "Projeto/conceito em desenvolvimento",
   },
-  {
-    number: "06",
-    name: "InterLink",
-    category: "Logística · Produto digital",
-    description:
-      "Plataforma inteligente para conectar empresas, transportadores e clientes e melhorar a logística interilhas em Cabo Verde.",
-    objective:
-      "O transporte de mercadorias entre as ilhas pode ser caro, demorado e pouco previsível. A plataforma pretende resolver este problema.",
-    tech: [],
-    contribution: [
-      "Comparação de preços",
-      "Acompanhamento de encomendas",
-      "Estimativa de entrega",
-      "Ligação entre transportadores e empresas",
-      "Melhoria da logística para o comércio eletrónico",
-    ],
-    security: [],
-    results: null,
-    visual: "logistics",
-    status: "Conceito de produto",
-  },
+  
 ];

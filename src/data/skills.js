@@ -3,12 +3,12 @@ export const skillGroups = [
     title: "Desenvolvimento",
     items: [
       "Java", "Spring Boot", "Python", "FastAPI", "React", "React Native",
-      "JavaScript", "TypeScript", "HTML", "CSS", "PHP", "C",
+      "JavaScript", "TypeScript", "HTML", "CSS", "PHP", "C", "C#"
     ],
   },
   {
     title: "Infraestrutura",
-    items: ["Linux", "Proxmox", "OpenStack", "oVirt", "KVM", "Virtualização", "Redes", "Servidores", "Monitorização"],
+    items: ["Linux", "Proxmox", "OpenStack", "oVirt", "KVM", "Virtualização", "Redes", "Servidores"],
   },
   {
     title: "Bases de dados",

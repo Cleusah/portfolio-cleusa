@@ -11,8 +11,8 @@ export default function About() {
           <Reveal className="about-text">
             <p>
               Sou licenciada em Engenharia Informática e de Computadores pela Universidade de Cabo Verde,
-              com experiência prática em desenvolvimento de software, infraestrutura de TI, redes,
-              virtualização e segurança.
+              com experiência prática em desenvolvimento de software, infraestrutura de TI, redes e
+              virtualização.
             </p>
             <p>
               Ao longo da minha formação e experiência profissional, tive oportunidade de trabalhar em

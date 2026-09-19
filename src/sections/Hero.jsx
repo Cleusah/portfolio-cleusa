@@ -1,6 +1,7 @@
 import { site } from "../data/site";
 import Reveal from "../components/Reveal";
 
+
 export default function Hero() {
   return (
     <section className="hero" id="inicio">
@@ -12,7 +13,7 @@ export default function Hero() {
           </h1>
           <p className="hero-text">
             Licenciada em Engenharia Informática e de Computadores, com experiência em desenvolvimento de
-            software, infraestrutura, redes e segurança.
+            software, infraestrutura e redes.
           </p>
           <div className="hero-actions">
             <a href="#projetos" className="btn btn-primary">Ver projetos</a>
@@ -21,19 +22,23 @@ export default function Hero() {
         </Reveal>
 
         <Reveal style={{ transitionDelay: "120ms" }}>
-          <div className="avatar-ring" style={{ display: "none" }}>CL</div>
-          {/* Avatar preparado para foto: troca este bloco por <img src="/foto.jpg" /> quando tiveres uma. */}
-          <div className="terminal">
-            <div className="terminal-bar"><span /><span /><span /></div>
-            <div className="terminal-body">
-              <div className="prompt">~/cleusa $ whoami</div>
-              <div className="out">engenheira_informática</div>
-              <div className="prompt">~/cleusa $ status</div>
-              <div className="out">
-                <span className="status-dot" /> disponível para novos desafios
+          <div className="hero-visual">
+            <div className="hero-photo">
+              <img src="/cleusa.jpg" alt={`Foto de ${site.name}`} width="380" height="475" />
+            </div>
+
+            <div className="terminal">
+              <div className="terminal-bar"><span /><span /><span /></div>
+              <div className="terminal-body">
+                <div className="prompt">~/cleusa $ whoami</div>
+                <div className="out">engenheira_informática</div>
+                <div className="prompt">~/cleusa $ status</div>
+                <div className="out">
+                  <span className="status-dot" /> disponível para novos desafios
+                </div>
+                <div className="prompt">~/cleusa $ stack</div>
+                <div className="out" style={{ marginBottom: 0 }}>python · react · spring boot · openstack · proxmox · java</div>
               </div>
-              <div className="prompt">~/cleusa $ stack</div>
-              <div className="out" style={{ marginBottom: 0 }}>python · react · spring boot · openstack · proxmox</div>
             </div>
           </div>
         </Reveal>

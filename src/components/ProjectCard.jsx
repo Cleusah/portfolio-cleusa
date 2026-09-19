@@ -1,4 +1,4 @@
-import { ArrowUpRight, Wallet, Globe, Server, Cloud, ShoppingBag, Truck } from "lucide-react";
+import { ArrowUpRight, Wallet, Globe, Server, Cloud, ShoppingBag, Truck, Play } from "lucide-react";
 
 const ICONS = {
   fintech: Wallet,
@@ -17,6 +17,9 @@ export default function ProjectCard({ project, onOpen }) {
       <div className="project-top">
         <span className="project-icon"><Icon size={18} /></span>
         {project.status && <span className="project-status">{project.status}</span>}
+        {/* {project.video && (
+          <span className="project-video-badge"><Play size={11} fill="currentColor" /> Vídeo</span>
+        )} */}
       </div>
 
       <div>

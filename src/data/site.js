@@ -9,8 +9,8 @@ export const site = {
   cvPath: "/CV-Cleusa-Lopes.pdf", // TODO: coloca o PDF em /public/CV-Cleusa-Lopes.pdf
 
   // TODO: substitui pelos teus links reais assim que os tiveres.
-  github: "https://github.com/SEU-USUARIO",
-  linkedin: "https://linkedin.com/in/SEU-PERFIL",
+  github: "https://github.com/Cleusah",
+  linkedin: "https://linkedin.com/in/Cleusa Lopes",
 
   // TODO: depois de publicares o site (Vercel/GitHub Pages), cola aqui o URL
   // público. Assim que este campo deixar de estar vazio, a secção de
