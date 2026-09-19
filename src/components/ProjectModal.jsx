@@ -91,18 +91,7 @@ export default function ProjectModal({ project, onClose }) {
           </div>
         )}
 
-        {project.github && (
-            <a
-              href={project.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="github-project-link"
-            >
-              <Github size={18} />
-              <span>Ver repositório no GitHub</span>
-            </a>
-          )}
-                  
+        
       </div>
     </div>
   );
