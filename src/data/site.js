@@ -15,5 +15,5 @@ export const site = {
   // TODO: depois de publicares o site (Vercel/GitHub Pages), cola aqui o URL
   // público. Assim que este campo deixar de estar vazio, a secção de
   // Contacto passa a mostrar automaticamente o QR Code real.
-  publicUrl: "",
+  publicUrl: "https://portfoliocleusa.netlify.app/",
 };
