@@ -23,7 +23,7 @@ export const projects = [
     ],
     security: ["JWT", "TLS", "RSA", "AES"],
     
-    video: "https://www.youtube.com/watch?v=X2wgk02Bqt0", // ex: "/videos/caixapay.mp4" ou link do YouTube/Vimeo/Drive
+    video: "/videos/demo_caixapay.mp4", // ex: "/videos/caixapay.mp4" ou link do YouTube/Vimeo/Drive
     status: null,
   },
   {
@@ -39,7 +39,7 @@ export const projects = [
     security: [],
     results: null,
     visual: "web",
-    video: null,
+    video: "/video/demo_know_how_caixa.mp4",
     status: null,
   },
   {

@@ -10,7 +10,7 @@ export const site = {
 
   // TODO: substitui pelos teus links reais assim que os tiveres.
   github: "https://github.com/Cleusah",
-  linkedin: "https://linkedin.com/in/Cleusa Lopes",
+  linkedin: "www.linkedin.com/in/cleusa-lopes-613104309",
 
   // TODO: depois de publicares o site (Vercel/GitHub Pages), cola aqui o URL
   // público. Assim que este campo deixar de estar vazio, a secção de
