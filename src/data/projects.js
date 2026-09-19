@@ -102,7 +102,7 @@ export const projects = [
     visual: "ecommerce",
     video: null,
     github: "https://github.com/Cleusah/site_venda_online.git",
-    status: "Projeto/conceito em desenvolvimento",
+    status: "https://github.com/Cleusah/site_venda_online.git",
   },
   
 ];

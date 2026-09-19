@@ -90,7 +90,6 @@ export default function ProjectModal({ project, onClose }) {
             <p style={{ fontSize: 14.5 }}>{project.results}</p>
           </div>
         )}
-
         
       </div>
     </div>
