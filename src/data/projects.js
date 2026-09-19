@@ -104,5 +104,30 @@ export const projects = [
     github: "https://github.com/Cleusah/site_venda_online.git",
     status: "Projeto/conceito em desenvolvimento",
   },
+
+   {
+    number: "06",
+    name: "Tudu li",
+    category: "E-commerce · Projeto",
+    description:
+      "Aplicação que facilita a vida das pessoas, podem encontrar tudo em so lugar.",
+    objective: null,
+    tech: ["React Native", "TypeScript", "Expo"],
+    contribution: [
+      "Loja online",
+      "Produtos",
+      "Carrinho",
+      "Checkout",
+      "Conta de utilizador",
+      "Relatórios",
+      "Painel administrativo",
+    ],
+    security: [],
+    results: null,
+    visual: "ecommerce",
+    video: null,
+    github: "https://github.com/Cleusah/Tuduli.git",
+    status: "Projeto/conceito em desenvolvimento",
+  },
   
 ];
