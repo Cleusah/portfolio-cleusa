@@ -91,16 +91,6 @@ export default function ProjectModal({ project, onClose }) {
           </div>
         )}
 
-        {project.github && (
-          <a
-            href={project.github}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="github-project-link"
-          >
-            Ver repositório no GitHub
-          </a>
-        )}
 
         {project.github.length > 0 && (
           <div className="modal-block">
