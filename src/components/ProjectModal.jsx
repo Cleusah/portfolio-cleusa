@@ -91,15 +91,18 @@ export default function ProjectModal({ project, onClose }) {
           </div>
         )}
 
-
-        {project.github.length > 0 && (
-          <div className="modal-block">
-            <h5>Ver o projeto no GitHub</h5>
-            <div className="skill-tags">
-              {project.github.map((t) => <span key={t} className="tag">{t}</span>)}
-            </div>
-          </div>
-        )}
+        {project.github && (
+            <a
+              href={project.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="github-project-link"
+            >
+              <Github size={18} />
+              <span>Ver repositório no GitHub</span>
+            </a>
+          )}
+                  
       </div>
     </div>
   );
