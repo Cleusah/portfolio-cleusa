@@ -1,0 +1,7 @@
+Coloca aqui o teu PDF com o nome exato:
+
+CV-Cleusa-Lopes.pdf
+
+O botão "Download CV" do site aponta para /CV-Cleusa-Lopes.pdf,
+por isso o ficheiro tem de estar nesta pasta (public/) com este nome
+exato. Depois de o colocares, podes apagar este ficheiro de texto.
