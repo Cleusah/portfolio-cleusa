@@ -1,4 +1,4 @@
-import { ArrowUpRight, Wallet, Globe, Server, Cloud, ShoppingBag, Truck, GitHub, Play } from "lucide-react";
+import { ArrowUpRight, Wallet, Globe, Server, Cloud, ShoppingBag, Truck, Github, Play } from "lucide-react";
 
 const ICONS = {
   fintech: Wallet,
@@ -20,7 +20,19 @@ export default function ProjectCard({ project, onOpen }) {
         {/* {project.video && (
           <span className="project-video-badge"><Play size={11} fill="currentColor" /> Vídeo</span>
         )} */}
-        
+         {project.github && (
+      <a
+        href={project.github}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="project-github"
+        onClick={(e) => e.stopPropagation()}
+        title="Ver repositório no GitHub"
+      >
+        <Github size={14} />
+        GitHub
+      </a>
+    )}
       </div>
 
       <div>
