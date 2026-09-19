@@ -101,6 +101,15 @@ export default function ProjectModal({ project, onClose }) {
             Ver repositório no GitHub
           </a>
         )}
+
+        {project.github.length > 0 && (
+          <div className="modal-block">
+            <h5>Ver o projeto no GitHub</h5>
+            <div className="skill-tags">
+              {project.github.map((t) => <span key={t} className="tag">{t}</span>)}
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );
